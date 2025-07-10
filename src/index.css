@@ -1,0 +1,12 @@
+@import "tailwindcss";
+.btn{
+  @apply py-1 px-2 cursor-pointer rounded-md text-white
+}
+
+.quizCard{
+  @apply w-[300px] border h-[200px] flex flex-col gap-10 justify-center items-center
+}
+
+.container{
+  @apply w-full max-w-[1200px] mx-auto my-0
+}
